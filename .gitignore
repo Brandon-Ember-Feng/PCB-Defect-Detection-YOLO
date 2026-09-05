@@ -1,0 +1,32 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+
+# ===== IDE / 系统 =====
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
+
+# ===== 数据集（体积大，不入库；按 README 自行准备）=====
+pcb-defect-dataset/
+
+# ===== 补充难例样本 / 早期探索归档（不发布）=====
+model_improve/
+archive/
+
+# ===== 训练与推理输出（最终权重已单独放在 pretrained/）=====
+runs/
+output/
+*.cache
+
+# ===== 官方预训练权重（可从 Ultralytics 官方下载，不入库）=====
+/yolov8n.pt
+weights/
